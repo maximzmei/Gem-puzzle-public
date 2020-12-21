@@ -1,0 +1,307 @@
+:root {
+    font-size: 10px;
+  }
+  
+  body {
+    background: #000000;
+    background: -webkit-linear-gradient(to left, #434343, #000000);
+    background: linear-gradient(to left, #434343, #000000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Quicksand, sans-serif;
+    margin: 0 auto;
+  }
+  
+  .field {
+    position: relative;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+  
+  .cell {
+    color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+  
+    border: 1px solid gray;
+    border-radius: 0.8rem;
+    position: absolute;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .advanced {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+    max-width: 32rem;
+    gap: 0.3rem;
+  }
+  
+  .advanced-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+    max-width: 32rem;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .advanced-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+    max-width: 32rem;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .time {
+    text-align: center;
+  }
+  
+  .steps {
+    text-align: center;
+  }
+  
+  .mute-sound {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .mute-sound:hover {
+    background: black;
+    color: white;
+  }
+  
+  .new-game {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .new-game:hover {
+    background: black;
+    color: white;
+  }
+  
+  .auto-win {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .auto-win:hover {
+    background: black;
+    color: white;
+  }
+  
+  .four {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .four:hover {
+    background: black;
+    color: white;
+  }
+  
+  .five {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .five:hover {
+    background: black;
+    color: white;
+  }
+  
+  .six {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .six:hover {
+    background: black;
+    color: white;
+  }
+  
+  .seven {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .seven:hover {
+    background: black;
+    color: white;
+  }
+  
+  .eight {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .eight:hover {
+    background: black;
+    color: white;
+  }
+  
+  .three {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .three:hover {
+    background: black;
+    color: white;
+  }
+  
+  .pictures-or-digits {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .pictures-or-digits:hover {
+    background: black;
+    color: white;
+  }
+  
+  .raiting {
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .raiting:hover {
+    background: black;
+    color: white;
+  }
+  
+  .selected {
+    background: #1f1c1cb6;
+    color: white;
+  }
+  
+  .raiting-module {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: black;
+    z-index: 1;
+    top: -44.5rem;
+    width: 32rem;
+    height: 44.5rem;
+    transition: top 0.8s cubic-bezier(1, 0, 0, 1);
+  }
+  
+  .raiting-module-back {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 3rem;
+    align-self: center;
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .raiting-module-back:hover {
+    background: black;
+    color: white;
+  }
+  
+  .p-raiting {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  
+  .records {
+    width: 30rem;
+    height: 35rem;
+    align-self: center;
+  }
+  
+  .record {
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .raiting-module-reset {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 3rem;
+    align-self: center;
+    font-family: Quicksand, sans-serif;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .raiting-module-reset:hover {
+    background: black;
+    color: white;
+  }
+  
